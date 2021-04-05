@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="Px3Tool.actionSet">
+         <menu
+               id="Px3Tool"
+               label="%menu_group"
+               path="tool/Px3Tool">
+         </menu>
+         <action
+         label="%menu_label"
+               icon="icons/sample.gif"
+               class="jp.co.infitech.java.astah.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/Px3Tool/"
+               id="ERtoHTML">
+         </action>
+         <action
+               label="%menu_label_domain"
+               icon="icons/sample.gif"
+               class="jp.co.infitech.java.astah.TemplateActionDomain"
+               tooltip="%menu_tooltip_domain"
+               menubarPath="tool/Px3Tool/"
+               id="ERtoHTMLDomain">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
